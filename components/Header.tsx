@@ -2,13 +2,22 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { nav } from "@/content/site";
 import Wordmark from "./Wordmark";
 
 export default function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+
+  // Close the mobile menu on Escape, and whenever the route changes.
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+  useEffect(() => setOpen(false), [pathname]);
 
   return (
     <header className="site-header">
@@ -41,6 +50,7 @@ export default function Header() {
           {open ? "Close" : "Menu"}
         </button>
       </div>
+      {open && <button className="scrim" aria-label="Close menu" onClick={() => setOpen(false)} />}
     </header>
   );
 }
