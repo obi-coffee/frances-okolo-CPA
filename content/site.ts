@@ -11,7 +11,7 @@ export const site = {
     "Outsourced accounting, audit support, and fractional CFO services for nonprofits and multi-entity organizations.",
   email: "hello@francesokolo.com", // TODO: confirm with client
   linkedin: "https://www.linkedin.com/", // TODO: client's LinkedIn URL
-  location: "Washington, DC", // TODO: confirm with client
+  location: "San Antonio, TX",
   responseTime: "Within two business days",
 
   // Toggle sections on once the client supplies real content.
