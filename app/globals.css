@@ -87,9 +87,9 @@ p { margin: 0; }
 }
 .wordmark small { font-family: var(--body); font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); }
 .nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 2rem; align-items: center; }
-.nav li a { text-decoration: none; font-size: 0.95rem; color: var(--ink-2); padding: 0.4rem 0; border-bottom: 1px solid transparent; white-space: nowrap; }
-.nav li a[aria-current="page"] { color: var(--ink); border-color: var(--ink); }
-.nav li a:hover { color: var(--ink); }
+.nav li a:not(.btn) { text-decoration: none; font-size: 0.95rem; color: var(--ink-2); padding: 0.4rem 0; border-bottom: 1px solid transparent; white-space: nowrap; }
+.nav li a:not(.btn)[aria-current="page"] { color: var(--ink); border-color: var(--ink); }
+.nav li a:not(.btn):hover { color: var(--ink); }
 .nav .btn { padding: 0.6rem 1.1rem; font-size: 0.88rem; flex-shrink: 0; }
 .nav .btn:hover { color: var(--bg); }
 .burger {
