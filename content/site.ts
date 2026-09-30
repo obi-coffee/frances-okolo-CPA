@@ -29,7 +29,7 @@ export const nav = [
 ];
 
 export const home = {
-  eyebrow: "CPA · Nonprofit & multi-entity accounting",
+  eyebrow: "Frances Okolo, CPA · Nonprofit & multi-entity accounting",
   headline: "Clear books. Clean audits. A finance function your board can trust.",
   lede:
     "I work with small and growing nonprofits that have outgrown spreadsheets and part-time bookkeeping but aren't ready for a full finance team. I become that team.",
