@@ -1,15 +1,11 @@
 import Link from "next/link";
 import { site } from "@/content/site";
+import WordmarkSvg from "./WordmarkSvg";
 
-/**
- * Type-set wordmark placeholder. To use the designed wordmark, drop an SVG at
- * /public/wordmark.svg and replace the inner text with:
- *   <img src="/wordmark.svg" alt={site.name} height={28} />
- */
-export default function Wordmark({ className = "" }: { className?: string }) {
+export default function Wordmark({ height = 30, className = "" }: { height?: number; className?: string }) {
   return (
     <Link href="/" className={`wordmark ${className}`} aria-label={`${site.name} — home`}>
-      {site.shortName} <small>{site.credential}</small>
+      <WordmarkSvg height={height} />
     </Link>
   );
 }

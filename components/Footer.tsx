@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot">
           <div>
-            <Wordmark />
+            <Wordmark height={26} />
             <p className="muted mt-1" style={{ maxWidth: "34ch", fontSize: ".95rem" }}>
               {site.description}
             </p>
