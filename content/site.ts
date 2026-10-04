@@ -8,7 +8,7 @@ export const site = {
   shortName: "Frances Okolo",
   credential: "CPA",
   description:
-    "Outsourced accounting, audit support, and fractional CFO services for nonprofits and multi-entity organizations.",
+    "Outsourced accounting, grant management, and fractional finance services for nonprofits and multi-entity organizations.",
   email: "hello@francesokolo.com", // TODO: confirm with client
   linkedin: "https://www.linkedin.com/", // TODO: client's LinkedIn URL
   location: "San Antonio, TX",
@@ -50,14 +50,14 @@ export const home = {
     items: [
       { title: "Small nonprofits", text: "Budgets from roughly $500K to $10M, often with one person wearing the finance hat alongside three others." },
       { title: "Multi-entity organizations", text: "Parent and affiliate structures, fiscal sponsors and sponsored projects, 501(c)(3)s paired with (c)(4)s or LLCs." },
-      { title: "Grant-funded programs", text: "Federal and foundation awards with restrictions, match requirements, and reporting calendars that need to be tracked precisely." },
+      { title: "Grant-funded programs", text: "Foundation and institutional awards with restrictions, match requirements, and reporting calendars that need to be tracked precisely." },
       { title: "Boards in transition", text: "New executive director, first audit, a funder asking for financial statements, or a merger on the table." },
     ],
   },
   servicesIntro: {
     eyebrow: "Services",
     headline: "Everything a finance department does, scaled to fit.",
-    linkText: "All services, including grant management, multi-entity consolidation, and compliance",
+    linkText: "All services, including grant management, fractional services, and compliance",
   },
   process: {
     eyebrow: "How it works",
@@ -109,31 +109,19 @@ export const services: Service[] = [
     details: ["Bookkeeping and reconciliations", "Fund, program, and functional expense allocation", "Payroll and benefits accounting", "Monthly management reports", "Chart of accounts design"],
   },
   {
-    idx: "02 · Assurance",
-    title: "Audit readiness & support",
-    summary: "Preparation that turns audit season from a scramble into a formality.",
-    details: ["PBC schedules and workpapers", "Auditor liaison through fieldwork", "Single Audit (Uniform Guidance) preparation", "Management letter remediation", "Internal control design"],
-  },
-  {
-    idx: "03 · Grants",
+    idx: "02 · Grants",
     title: "Grant & fund management",
     summary: "Every dollar traceable to its source and its restriction.",
     details: ["Grant budgets and allowable cost tracking", "Restricted net asset release schedules", "Funder financial reporting", "Indirect cost rate support", "Match and cost-share documentation"],
   },
   {
-    idx: "04 · Structure",
-    title: "Multi-entity & consolidation",
-    summary: "For organizations that have become more than one organization.",
-    details: ["Affiliate and subsidiary accounting", "Fiscal sponsorship accounting", "Intercompany transactions and eliminations", "Consolidated financial statements", "Shared services cost allocation"],
-  },
-  {
-    idx: "05 · Strategy",
-    title: "Fractional CFO",
+    idx: "03 · Strategy",
+    title: "Fractional services",
     summary: "Senior financial leadership on a schedule that fits your budget.",
     details: ["Annual budgeting and reforecasting", "Cash flow planning and reserves policy", "Board and finance committee reporting", "Scenario modeling for growth or contraction", "Finance staff coaching and hiring support"],
   },
   {
-    idx: "06 · Compliance",
+    idx: "04 · Compliance",
     title: "Compliance & filings",
     summary: "Keep the organization in good standing with every agency that watches it.",
     details: ["Form 990 preparation and review", "State charitable registrations", "1099 and payroll tax filings", "Sales tax exemption maintenance", "Policy documentation for funders"],
@@ -148,7 +136,7 @@ export const servicesPage = {
     eyebrow: "Engagement models",
     items: [
       { title: "Monthly retainer", text: "A fixed monthly fee covering the close, reporting, and a set number of advisory hours. Scoped after discovery; reviewed annually." },
-      { title: "Defined project", text: "Cleanup, audit prep, a system migration, or a consolidation. Fixed scope, fixed fee, fixed timeline." },
+      { title: "Defined project", text: "Cleanup, audit prep, or a system migration. Fixed scope, fixed fee, fixed timeline." },
     ],
   },
   cta: {
@@ -175,7 +163,7 @@ export const about = {
   paragraphs: [
     "She started her career in public accounting, auditing organizations whose books told her more about their leadership than any interview could. She then moved inside, running finance for mission-driven organizations with multiple entities, restricted funding, and boards that needed to understand the numbers quickly.",
     "That experience shaped a simple conviction: most nonprofits don't need more accounting. They need accounting that is organized around the way they actually work, closed on a rhythm, and explained in plain language to the people making decisions.",
-    "Today she works with a small number of organizations as their outsourced accountant, controller, or fractional CFO. The engagement is shaped to what each one needs, and it grows with them.",
+    "Today she works with a small number of organizations as their outsourced accountant, controller, or fractional finance lead. The engagement is shaped to what each one needs, and it grows with them.",
   ],
   principles: {
     eyebrow: "How I work",
@@ -193,6 +181,6 @@ export const contact = {
   lede: "A few details and I'll reply within two business days to set up an intro call.",
   aside: "Prefer to talk first? Email is fine.",
   budgets: ["Under $500K", "$500K – $2M", "$2M – $10M", "Over $10M"],
-  needs: ["Monthly accounting", "Audit preparation", "Cleanup / catch-up", "Fractional CFO", "Multi-entity / consolidation", "Not sure yet"],
+  needs: ["Monthly accounting", "Audit preparation", "Cleanup / catch-up", "Fractional services", "Not sure yet"],
   success: { title: "Thank you.", text: "Your message is on its way. Expect a reply within two business days." },
 };

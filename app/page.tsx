@@ -55,7 +55,7 @@ export default function HomePage() {
           <h2>{home.servicesIntro.headline}</h2>
         </div>
         <div className="grid g3">
-          {[services[0], services[1], services[4]].map((s) => (
+          {services.slice(0, 3).map((s) => (
             <div className="svc" key={s.title}>
               <span className="idx">{s.idx.split(" · ")[1]}</span>
               <h3>{s.title}</h3>
