@@ -4,7 +4,7 @@ import CtaBlock from "@/components/CtaBlock";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Accounting, audit readiness, grant management, multi-entity consolidation, fractional CFO, and compliance for nonprofits.",
+  description: "Accounting, audit readiness, grant management, fractional services, and compliance for nonprofits.",
 };
 
 export default function ServicesPage() {
