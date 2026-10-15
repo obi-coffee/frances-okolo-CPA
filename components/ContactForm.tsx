@@ -18,11 +18,24 @@ export default function ContactForm() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
-    // Honeypot: bots fill hidden fields, people don't.
-    if (data.get("_gotcha")) return;
+    // Honeypot: bots fill hidden fields, people don't. If it's filled, show the
+    // success state without sending so a bot learns nothing and a person who
+    // somehow hit it (browser autofill) is never left with a dead button.
+    if (data.get("_gotcha")) {
+      setStatus("sent");
+      return;
+    }
 
     if (!FORM_ID) {
       setError("The contact form isn't connected yet. Please email directly for now.");
+      setStatus("error");
+      return;
+    }
+
+    const name = String(data.get("name") ?? "").trim();
+    const email = String(data.get("email") ?? "").trim();
+    if (!name || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+      setError("Please add your name and a valid email so Frances can reply.");
       setStatus("error");
       return;
     }
@@ -59,8 +72,8 @@ export default function ContactForm() {
   }
 
   return (
-    <form className="form" onSubmit={onSubmit}>
-      <input type="text" name="_gotcha" className="honeypot" tabIndex={-1} autoComplete="off" aria-hidden="true" />
+    <form className="form" onSubmit={onSubmit} noValidate>
+      <input type="text" name="_gotcha" className="honeypot" tabIndex={-1} autoComplete="new-password" aria-hidden="true" data-lpignore="true" data-1p-ignore="true" />
       <input type="hidden" name="_subject" value="New inquiry from francesokolo.com" />
 
       <div className="row2">
