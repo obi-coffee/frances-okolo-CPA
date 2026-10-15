@@ -3,7 +3,9 @@
 import { useState, type FormEvent } from "react";
 import { contact } from "@/content/site";
 
-const FORM_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID;
+// Formspree form "Website contact" → delivers to the client's inbox.
+// Override with NEXT_PUBLIC_FORMSPREE_ID in Vercel if the form is ever recreated.
+const FORM_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID || "xaeqlqgg";
 
 type Status = "idle" | "sending" | "sent" | "error";
 

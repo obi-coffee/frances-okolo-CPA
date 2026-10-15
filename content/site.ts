@@ -9,10 +9,11 @@ export const site = {
   credential: "CPA",
   description:
     "Outsourced accounting, grant management, and fractional finance services for nonprofits.",
-  email: "hello@francesokolo.com", // TODO: confirm with client
+  email: "fookolo@gmail.com",
   linkedin: "https://www.linkedin.com/", // TODO: client's LinkedIn URL
   location: "San Antonio, TX",
   responseTime: "Within two business days",
+  url: "https://francesokolo.com",
 
   // Toggle sections on once the client supplies real content.
   features: {
