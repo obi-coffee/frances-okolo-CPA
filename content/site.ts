@@ -9,7 +9,7 @@ export const site = {
   credential: "CPA",
   description:
     "Outsourced accounting, grant management, and fractional finance services for nonprofits.",
-  email: "fookolo@gmail.com",
+  email: "hello@francesokolo.com",
   linkedin: "https://www.linkedin.com/", // TODO: client's LinkedIn URL
   location: "San Antonio, TX",
   responseTime: "Within two business days",
