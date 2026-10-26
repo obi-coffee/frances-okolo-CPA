@@ -31,25 +31,25 @@ export const nav = [
 
 export const home = {
   eyebrow: "Frances Okolo, CPA · Nonprofit accounting",
-  headline: "Clear books. Clean audits. A finance function your board can trust.",
+  headline: "Clear books. Clean audits. A finance support your board can trust.",
   lede:
-    "I work with small and growing nonprofits that have outgrown spreadsheets and part-time bookkeeping but aren't ready for a full finance team. I become that team.",
+    "I work with small and growing nonprofits that have outgrown spreadsheets and part-time bookkeeping but can't afford a full finance team.",
   meta: [
     { title: "Fractional, not freelance", text: "A standing role on your team, at the hours you actually need." },
-    { title: "Fund-level clarity", text: "Restricted, unrestricted, grant by grant, program by program." },
-    { title: "Audit-ready by design", text: "Close the books every month as if the auditors arrive tomorrow." },
+    { title: "Fund-level clarity", text: "Every fund, every grant, every program, tracked." },
+    { title: "Audit-ready by design", text: "Year-round audit support." },
   ],
   band: {
     eyebrow: "Why it matters",
-    headline: "Financial clarity is not overhead. It is what lets a mission grow.",
+    headline: "Financial clarity isn’t a cost of doing good; it’s how good grows.",
     text:
       "Funders read the numbers before they read the story. A clean audit, a defensible budget, and a board packet that answers questions before they are asked will do more for your next grant than any pitch deck.",
   },
   who: {
     eyebrow: "Who I work with",
-    headline: "Organizations at the point where the money got complicated.",
+    headline: "Nonprofit organizations.",
     items: [
-      { title: "Small nonprofits", text: "Budgets from roughly $500K to $10M, often with one person wearing the finance hat alongside three others." },
+      { title: "Small nonprofits", text: "Budgets from roughly $500K to $10M." },
       { title: "Grant-funded programs", text: "Foundation and institutional awards with restrictions, match requirements, and reporting calendars that need to be tracked precisely." },
       { title: "Boards in transition", text: "New executive director, first audit, or a funder asking for financial statements." },
     ],
@@ -71,7 +71,7 @@ export const home = {
   },
   aboutTeaser: {
     eyebrow: "About",
-    headline: "Fifteen years inside finance departments. Now I build them for others.", // TODO: confirm years
+    headline: "Twenty years inside finance departments. Now I build them for others.",
     text:
       "Frances Okolo is a CPA and finance executive with a background in nonprofit accounting, audit leadership, and financial transformation. She works with a small number of organizations at a time so each gets a real seat at the table.",
     linkText: "Read more about Frances",
@@ -103,40 +103,40 @@ export type Service = { idx: string; title: string; summary: string; details: st
 
 export const services: Service[] = [
   {
-    idx: "01 · Foundations",
+    idx: "01 · Daily operations",
     title: "Accounting & monthly close",
     summary: "The core. Accurate books, closed on time, structured around how your organization actually runs.",
-    details: ["Bookkeeping and reconciliations", "Fund, program, and functional expense allocation", "Monthly management reports", "Chart of accounts design"],
+    details: ["Chart of accounts design", "Bookkeeping and reconciliations", "Fund, program, and functional expense allocation", "Monthly management reports"],
   },
   {
-    idx: "02 · Assurance",
-    title: "Audit readiness",
+    idx: "02 · Audit readiness",
+    title: "Year-round audit support",
     summary: "Preparation that turns audit season from a scramble into a formality.",
     details: ["PBC schedules and workpapers", "Auditor liaison through fieldwork", "Management letter remediation", "Internal control design"],
   },
   {
     idx: "03 · Grants",
     title: "Grant & fund management",
-    summary: "Every dollar traceable to its source and its restriction.",
+    summary: "Every dollar tracked to its source and its restriction.",
     details: ["Grant budgets and allowable cost tracking", "Restricted net asset release schedules", "Funder financial reporting", "Indirect cost rate support", "Match and cost-share documentation"],
   },
   {
     idx: "04 · Strategy",
     title: "Fractional services",
-    summary: "Senior financial leadership on a schedule that fits your budget.",
+    summary: "Strategic financial support.",
     details: ["Annual budgeting and reforecasting", "Cash flow planning and reserves policy", "Board and finance committee reporting", "Scenario modeling for growth or contraction", "Finance staff coaching"],
   },
   {
-    idx: "05 · Compliance",
+    idx: "05 · Risk management",
     title: "Compliance & filings",
-    summary: "Keep the organization in good standing with every agency that watches it.",
-    details: ["Form 990 preparation and review", "1099 filings", "Policy documentation for funders"],
+    summary: "Ensuring regulatory requirements are met.",
+    details: ["Form 990 preparation and review", "1099 filings", "Policy review and documentation"],
   },
 ];
 
 export const servicesPage = {
   eyebrow: "Services",
-  headline: "Built for nonprofits. Scaled to the organization you are now.",
+  headline: "Built for nonprofits.",
   lede: "Engagements are structured as a monthly retainer or a defined project. Most clients start with a cleanup and move into a monthly rhythm.",
   models: {
     eyebrow: "Engagement models",
@@ -159,15 +159,14 @@ export const about = {
   facts: [
     ["Credential", "Certified Public Accountant"],
     ["Focus", "Nonprofit accounting"],
-    ["Background", "Finance executive, audit leadership, financial transformation"],
+    ["Background", "CFO, Controller, and Director of Finance roles; 20+ years"],
     ["Based in", site.location],
     ["Works with", "Organizations nationwide, remotely"],
   ],
   lede:
-    "Frances Okolo is a CPA and finance executive who has led accounting for nonprofits, managed audits from both sides, and rebuilt finance functions that had stopped serving the people who depended on them.",
+    "Frances Okolo is a nonprofit finance leader with more than 20 years of experience in GAAP reporting, audits, Form 990 compliance, treasury management, and internal controls. She has served as CFO, Controller, and Director of Finance for mission-driven organizations, and currently consults with nonprofits to strengthen compliance and streamline their financial operations. A trusted partner to executive teams and boards, she is known for decision-ready reporting that supports strategy and risk management.",
   // TODO: replace with client's approved bio
   paragraphs: [
-    "She started her career in public accounting, auditing organizations whose books told her more about their leadership than any interview could. She then moved inside, running finance for mission-driven organizations with restricted funding and boards that needed to understand the numbers quickly.",
     "That experience shaped a simple conviction: most nonprofits don't need more accounting. They need accounting that is organized around the way they actually work, closed on a rhythm, and explained in plain language to the people making decisions.",
     "Today she works with a small number of organizations as their outsourced accountant, controller, or fractional finance lead. The engagement is shaped to what each one needs, and it grows with them.",
   ],
