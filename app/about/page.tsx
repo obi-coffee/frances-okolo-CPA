@@ -5,7 +5,7 @@ import Portrait from "@/components/Portrait";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Frances Okolo is a CPA and finance executive specializing in nonprofit accounting.",
+  description: "Frances Okolo, CPA — nonprofit finance leader with 20+ years in GAAP reporting, audits, Form 990 compliance, and internal controls. San Antonio, Texas.",
 };
 
 export default function AboutPage() {

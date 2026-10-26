@@ -4,7 +4,7 @@ import CtaBlock from "@/components/CtaBlock";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Accounting, audit readiness, grant management, fractional services, and compliance for nonprofits.",
+  description: "Nonprofit accounting services in San Antonio, Texas: monthly close, audit readiness, grant and fund management, fractional CFO-level support, and Form 990 compliance.",
 };
 
 export default function ServicesPage() {

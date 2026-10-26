@@ -4,7 +4,7 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Book an intro call with Frances Okolo, CPA.",
+  description: "Book an intro call with Frances Okolo, CPA — nonprofit accounting and audit readiness in San Antonio, Texas; clients nationwide.",
 };
 
 export default function ContactPage() {

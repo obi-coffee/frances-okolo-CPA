@@ -8,9 +8,9 @@ export const site = {
   shortName: "Frances Okolo",
   credential: "CPA",
   description:
-    "Outsourced accounting, grant management, and fractional finance services for nonprofits.",
+    "Outsourced nonprofit accounting, audit readiness, and fractional finance services. Frances Okolo, CPA — San Antonio, Texas; clients nationwide.",
   email: "hello@francesokolo.com",
-  linkedin: "https://www.linkedin.com/", // TODO: client's LinkedIn URL
+  linkedin: "https://www.linkedin.com/in/frances-okolo-cpa-985ba78/",
   location: "San Antonio, TX",
   responseTime: "Within two business days",
   url: "https://francesokolo.com",
@@ -31,23 +31,23 @@ export const nav = [
 
 export const home = {
   eyebrow: "Frances Okolo, CPA · Nonprofit accounting",
-  headline: "Clear books. Clean audits. A finance support your board can trust.",
+  headline: "Clear books. Clean audits. Finance support your board can trust.",
   lede:
     "I work with small and growing nonprofits that have outgrown spreadsheets and part-time bookkeeping but can't afford a full finance team.",
   meta: [
     { title: "Fractional, not freelance", text: "A standing role on your team, at the hours you actually need." },
-    { title: "Fund-level clarity", text: "Every fund, every grant, every program, tracked." },
+    { title: "Fund-level clarity", text: "Restricted and unrestricted funds, every grant and program, tracked." },
     { title: "Audit-ready by design", text: "Year-round audit support." },
   ],
   band: {
     eyebrow: "Why it matters",
     headline: "Financial clarity isn’t a cost of doing good; it’s how good grows.",
     text:
-      "Funders read the numbers before they read the story. A clean audit, a defensible budget, and a board packet that answers questions before they are asked will do more for your next grant than any pitch deck.",
+      "Nonprofit accounting that funders, auditors, and boards can rely on. Funders read the numbers before they read the story. A clean audit, a defensible budget, and a board packet that answers questions before they are asked will do more for your next grant than any pitch deck.",
   },
   who: {
     eyebrow: "Who I work with",
-    headline: "Nonprofit organizations.",
+    headline: "Nonprofit organizations in San Antonio and across Texas.",
     items: [
       { title: "Small nonprofits", text: "Budgets from roughly $500K to $10M." },
       { title: "Grant-funded programs", text: "Foundation and institutional awards with restrictions, match requirements, and reporting calendars that need to be tracked precisely." },
@@ -123,20 +123,20 @@ export const services: Service[] = [
   {
     idx: "04 · Strategy",
     title: "Fractional services",
-    summary: "Strategic financial support.",
+    summary: "Strategic financial leadership for nonprofit executives and boards. Often described as a fractional CFO or outsourced controller.",
     details: ["Annual budgeting and reforecasting", "Cash flow planning and reserves policy", "Board and finance committee reporting", "Scenario modeling for growth or contraction", "Finance staff coaching"],
   },
   {
-    idx: "05 · Risk management",
+    idx: "05 · Compliance & risk management",
     title: "Compliance & filings",
-    summary: "Ensuring regulatory requirements are met.",
+    summary: "Form 990, state filings, and funder requirements, met on time.",
     details: ["Form 990 preparation and review", "1099 filings", "Policy review and documentation"],
   },
 ];
 
 export const servicesPage = {
   eyebrow: "Services",
-  headline: "Built for nonprofits.",
+  headline: "Accounting services built for nonprofits.",
   lede: "Engagements are structured as a monthly retainer or a defined project. Most clients start with a cleanup and move into a monthly rhythm.",
   models: {
     eyebrow: "Engagement models",
@@ -161,10 +161,10 @@ export const about = {
     ["Focus", "Nonprofit accounting"],
     ["Background", "CFO, Controller, and Director of Finance roles; 20+ years"],
     ["Based in", site.location],
-    ["Works with", "Organizations nationwide, remotely"],
+    ["Serves", "San Antonio, Texas; nonprofits nationwide (remote)"],
   ],
   lede:
-    "Frances Okolo is a nonprofit finance leader with more than 20 years of experience in GAAP reporting, audits, Form 990 compliance, treasury management, and internal controls. She has served as CFO, Controller, and Director of Finance for mission-driven organizations, and currently consults with nonprofits to strengthen compliance and streamline their financial operations. A trusted partner to executive teams and boards, she is known for decision-ready reporting that supports strategy and risk management.",
+    "Frances Okolo, CPA, is a nonprofit finance leader with more than 20 years of experience in GAAP reporting, audits, Form 990 compliance, treasury management, and internal controls. She has served as CFO, Controller, and Director of Finance for mission-driven organizations, and currently consults with nonprofits to strengthen compliance and streamline their financial operations. A trusted partner to executive teams and boards, she is known for decision-ready reporting that supports strategy and risk management.",
   // TODO: replace with client's approved bio
   paragraphs: [
     "That experience shaped a simple conviction: most nonprofits don't need more accounting. They need accounting that is organized around the way they actually work, closed on a rhythm, and explained in plain language to the people making decisions.",
@@ -183,7 +183,7 @@ export const about = {
 export const contact = {
   eyebrow: "Contact",
   headline: "Tell me where the books stand.",
-  lede: "A few details and I'll reply within two business days to set up an intro call.",
+  lede: "A few details and I'll reply within two business days to set up an intro call. Based in San Antonio; working with nonprofits across Texas and nationwide.",
   aside: "Prefer to talk first? Email is fine.",
   budgets: ["Under $500K", "$500K – $2M", "$2M – $10M", "Over $10M"],
   needs: ["Monthly accounting", "Audit preparation", "Cleanup / catch-up", "Fractional services", "Not sure yet"],
